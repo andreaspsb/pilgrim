@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+FngeIUHWQmYGrJrziTtG5Jm6ZeY1vRs1+HCbPYfJYczrzulVIzwpkbvCJZ0fp1XWbFgr26KXfua2Y/yU4hHwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andreas\\Desktop\\pilgrim\\pilgrim.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andreas\\.nuget\\packages\\htmlagilitypack\\1.11.33\\htmlagilitypack.1.11.33.nupkg.sha512"
+  ],
+  "logs": []
+}
