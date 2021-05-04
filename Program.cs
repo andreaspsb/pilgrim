@@ -148,7 +148,7 @@ namespace pilgrim
             var filePath = @"C:\Users\Andreas\Desktop\pilgrim\pilgrim.csv";
             for (int i = 1; i < 6654; i++)
             {
-                newLine = string.Format("{0}§{1}§{2}§{3}§{4}", titulos[i] ?? String.Empty, autores[i] ?? String.Empty, tipos[i] ?? String.Empty, idiomas[i] ?? String.Empty, editoras[i] ?? String.Empty);
+                newLine = string.Format("{0}§{1}§{2}§{3}§{4}§{5}", i, titulos[i] ?? String.Empty, autores[i] ?? String.Empty, tipos[i] ?? String.Empty, idiomas[i] ?? String.Empty, editoras[i] ?? String.Empty);
                 csv.AppendLine(newLine);
                 Console.WriteLine(i);
             }
