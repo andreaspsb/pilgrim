@@ -20,17 +20,17 @@ namespace pilgrim
             HtmlDocument doc;
             HtmlNode node;
             List<HtmlNode> nodes;
-            string[] tipos = new string[6672];
-            string[] idiomas = new string[6672];
-            string[] editoras = new string[6672];
-            string[] titulos = new string[6672];
-            string[] autores = new string[6672];
+            string[] tipos = new string[6782];
+            string[] idiomas = new string[6782];
+            string[] editoras = new string[6782];
+            string[] titulos = new string[6782];
+            string[] autores = new string[6782];
             //Encoding iso = Encoding.GetEncoding("ISO-8859-1");
             //Encoding utf8 = Encoding.UTF8;
             //byte[] utfBytes;
             //byte[] isoBytes;
 
-            for (int i = 6671; i < 6672; i++)
+            for (int i = 6715; i < 6782; i++)
             {
                 ftipo = false;
                 fidioma = false;
@@ -146,7 +146,7 @@ namespace pilgrim
             var csv = new StringBuilder();
             string newLine;
             var filePath = @"C:\Users\Andreas\Desktop\pilgrim\pilgrim.csv";
-            for (int i = 6671; i < 6672; i++)
+            for (int i = 6715; i < 6782; i++)
             {
                 newLine = string.Format("{0}§{1}§{2}§{3}§{4}§{5}", i, titulos[i] ?? String.Empty, autores[i] ?? String.Empty, tipos[i] ?? String.Empty, idiomas[i] ?? String.Empty, editoras[i] ?? String.Empty);
                 csv.AppendLine(newLine);
